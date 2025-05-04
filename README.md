@@ -45,12 +45,12 @@ It performs:
 - Cross-class NMS with an IoU threshold of 0.5.
 - JSON export + ZIP packaging for Codabench submission.
 
-## Performance Snapshot
+## Performance
 
 | Method              | mAP50 (%) | Notes                                 |
 |---------------------|-----------|----------------------------------------|
 | Unified model       | 31.67     | Trained on all four classes together   |
-| Class-wise ensemble | 32.51     | Combined predictions + cross-class NMS |
+| Class-wise ensemble | **32.51**     | Combined predictions + cross-class NMS |
 
 ### Chart
 ![plot](./docs/plot.svg)  
